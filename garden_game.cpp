@@ -35,19 +35,25 @@ int main()
 			arr[0][i] = i+1;
 			scanf("%lld",&arr[1][i]);
 		}
+		/*for(int i=0;i<len;i++)
+			printf("%lld , ",arr[0][i]);
+		printf(" \n");
+		for(int i=0;i<len;i++)
+			printf("%lld , ",arr[1][i]);
+		printf(" \n");*/
 		ll lcm =1;
-		for(ll i=0;i<len;i++)
+		for(int i=0;i<len;i++)
 		{
-			ll steps =0;
-			ll temp_index = i;
+			ll steps =1;
+			int temp_index = i;
+			printf("The temp_index is %d steps is \n",temp_index);
 			while(arr[1][temp_index] != arr[0][i])
 			{
 				temp_index = int(arr[1][temp_index])-1;
 				steps++;
-				printf("The temp_index is %lld steps is %lld\n",temp_index,steps);
-				if(steps>4)
-					break;
+				printf("The temp_index is %d steps is %lld\n",temp_index,steps);
 			}
+			cout<<"Got the lcm\n";
 			lcm = lcm_cal(steps,lcm);
 		}
 		printf("%lld\n", lcm);
