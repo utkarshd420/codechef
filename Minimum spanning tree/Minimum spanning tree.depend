@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1397919652 source:c:\users\dixit\desktop\c++\minimum spanning tree\prim.cpp
+	"prim.h"
+	"../heap/min-priority.cpp"
+	<iostream>
+	<cstdio>
+
+1397897487 c:\users\dixit\desktop\c++\minimum spanning tree\prim.h
+
+1397918090 c:\users\dixit\desktop\c++\heap\min-priority.cpp
+	"min-priority.h"
+	<iostream>
+
+1397908200 c:\users\dixit\desktop\c++\heap\min-priority.h
+	"heap.cpp"
+
+1397917586 c:\users\dixit\desktop\c++\heap\heap.cpp
+	"heap.h"
+	<iostream>
+
+1397909506 c:\users\dixit\desktop\c++\heap\heap.h
+

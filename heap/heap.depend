@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1397887655 source:c:\users\dixit\desktop\c++\heap\heap.cpp
+	"heap.h"
+	<iostream>
+
+1397887566 c:\users\dixit\desktop\c++\heap\heap.h
+
+1397887727 source:c:\users\dixit\desktop\c++\heap\min-priority.cpp
+	"min-priority.h"
+	"heap.h"
+
+1397887724 c:\users\dixit\desktop\c++\heap\min-priority.h
+

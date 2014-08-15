@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1397981138 source:c:\users\dixit\desktop\c++\topological sort\topo_sort.cpp
+	"topo_sort.h"
+	<iostream>
+	<list>
+	<cstdio>
+
+1397978783 c:\users\dixit\desktop\c++\topological sort\topo_sort.h
+

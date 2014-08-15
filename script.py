@@ -1,4 +1,9 @@
 import random
-print 1000
-for i in xrange(1,1001):
-    print int( random.random() * (10**8))
+import math
+print 100000
+x = range(1,100001) 
+random.shuffle(x)
+str1=""
+for i in x:
+    str1 = str1 + " "+str(i)
+print str1
